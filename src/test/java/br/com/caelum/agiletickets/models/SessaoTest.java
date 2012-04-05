@@ -8,7 +8,7 @@ public class SessaoTest {
 
 	@Test
 	public void deveVender1ingressoSeHa2vagas() throws Exception {
-		Sessao sessao = new Sessao();
+		Sessao sessao = new Sessao();	
         sessao.setTotalIngressos(2);
 
         Assert.assertTrue(sessao.podeReservar(1));
